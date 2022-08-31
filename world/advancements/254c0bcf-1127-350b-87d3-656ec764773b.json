@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-08-31 12:55:46 +0300",
+      "minecraft:plains": "2022-08-31 12:55:41 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
