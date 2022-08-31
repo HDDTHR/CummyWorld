@@ -4,5 +4,11 @@
     "name": "EdgyEmo02",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "737bdd23-1d92-3951-aedd-64a2d240043b",
+    "name": "GuitarRock3",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
