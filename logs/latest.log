@@ -1,89 +1,67 @@
-[14:55:38] [ServerMain/INFO]: Building unoptimized datafixer
-[14:55:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:55:41] [ServerMain/INFO]: Loaded 7 recipes
-[14:55:42] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[14:55:42] [Server thread/INFO]: Loading properties
-[14:55:42] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: eff22eb)
-[14:55:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:55:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:55:42] [Server thread/INFO]: Default game type: SURVIVAL
-[14:55:42] [Server thread/INFO]: Generating keypair
-[14:55:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:55:42] [Server thread/INFO]: Using default channel type
-[14:55:42] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[14:55:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:55:43] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[14:55:43] [Server thread/INFO]: [Images] Loading Images v2.2.7
-[14:55:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:55:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:55:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:55:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:55:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:55:43] [Server thread/INFO]: Preparing level "world"
-[14:55:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:55:44] [Server thread/INFO]: Time elapsed: 286 ms
-[14:55:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:55:44] [Server thread/INFO]: Time elapsed: 135 ms
-[14:55:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:55:44] [Server thread/INFO]: Time elapsed: 87 ms
-[14:55:44] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[14:55:45] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[14:55:45] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[14:55:45] [Server thread/INFO]: [Images] Enabling Images v2.2.7
-[14:55:45] [Server thread/INFO]: Running delayed init tasks
-[14:55:45] [Server thread/INFO]: Done (3.428s)! For help, type "help"
-[14:55:45] [Server thread/INFO]: Timings Reset
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[14:55:46] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:55:47] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 0 images...
-[14:55:52] [User Authenticator #1/INFO]: UUID of player EdgyEmo02 is 254c0bcf-1127-350b-87d3-656ec764773b
-[14:55:52] [Server thread/INFO]: EdgyEmo02 joined the game
-[14:55:52] [Server thread/INFO]: EdgyEmo02[/127.0.0.1:58892] logged in with entity id 278 at ([world]150.31691872428797, 63.0, -80.53727158816939)
-[14:55:58] [User Authenticator #1/INFO]: UUID of player GuitarRock3 is 737bdd23-1d92-3951-aedd-64a2d240043b
-[14:55:58] [Server thread/INFO]: GuitarRock3 joined the game
-[14:55:58] [Server thread/INFO]: GuitarRock3[/46.185.245.40:51470] logged in with entity id 396 at ([world]112.06889463786025, 63.0, -68.59742581658624)
-[14:56:38] [Server thread/INFO]: EdgyEmo02 has made the advancement [Monster Hunter]
-[14:59:42] [Worker-Main-2/ERROR]: Failed to fetch mob spawner entity at (597, -1, -63)
-[15:00:54] [Server thread/INFO]: EdgyEmo02 has made the advancement [Sweet Dreams]
-[15:01:03] [Server thread/INFO]: GuitarRock3 has made the advancement [Sweet Dreams]
-[15:08:07] [Server thread/INFO]: GuitarRock3 has made the advancement [Acquire Hardware]
-[15:12:24] [Server thread/INFO]: GuitarRock3 has made the advancement [Diamonds!]
-[15:18:48] [Server thread/INFO]: EdgyEmo02 has made the advancement [Best Friends Forever]
-[15:19:32] [Server thread/INFO]: EdgyEmo02 has made the advancement [Ice Bucket Challenge]
-[15:27:31] [Server thread/INFO]: EdgyEmo02 issued server command: /image create img.jpg 50
-[15:27:41] [Server thread/INFO]: EdgyEmo02 issued server command: /image delete
-[15:27:48] [Server thread/INFO]: EdgyEmo02 issued server command: /image create img.jpg 50
-[15:28:33] [Server thread/INFO]: EdgyEmo02 issued server command: /image delete
-[15:28:38] [Server thread/INFO]: EdgyEmo02 issued server command: /image create img.jpg 100
-[15:28:42] [Server thread/INFO]: EdgyEmo02 issued server command: /image delete
-[15:28:52] [Server thread/INFO]: EdgyEmo02 issued server command: /image delete
-[15:28:53] [Server thread/INFO]: EdgyEmo02 issued server command: /image delete
-[15:29:19] [Server thread/INFO]: EdgyEmo02 issued server command: /image create img.jpg 100
-[15:35:53] [Server thread/INFO]: GuitarRock3 lost connection: Disconnected
-[15:35:53] [Server thread/INFO]: GuitarRock3 left the game
-[15:35:54] [Server thread/INFO]: EdgyEmo02 lost connection: Disconnected
-[15:35:54] [Server thread/INFO]: EdgyEmo02 left the game
-[15:36:07] [Server thread/INFO]: Stopping the server
-[15:36:07] [Server thread/INFO]: Stopping server
-[15:36:07] [Server thread/INFO]: [Images] Disabling Images v2.2.7
-[15:36:07] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[15:36:07] [Server thread/INFO]: Saving players
-[15:36:07] [Server thread/INFO]: Saving worlds
-[15:36:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:36:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:36:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:36:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:36:11] [Server thread/INFO]: Flushing Chunk IO
-[15:36:11] [Server thread/INFO]: Closing Thread Pool
-[15:36:11] [Server thread/INFO]: Closing Server
+[15:37:21] [ServerMain/INFO]: Building unoptimized datafixer
+[15:37:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:37:23] [ServerMain/INFO]: Loaded 7 recipes
+[15:37:24] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[15:37:24] [Server thread/INFO]: Loading properties
+[15:37:24] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: eff22eb)
+[15:37:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:37:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:37:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:37:25] [Server thread/INFO]: Generating keypair
+[15:37:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:37:25] [Server thread/INFO]: Using default channel type
+[15:37:25] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[15:37:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:37:25] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[15:37:25] [Server thread/INFO]: [Images] Loading Images v2.2.7
+[15:37:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:37:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:37:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:37:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:37:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:37:25] [Server thread/INFO]: Preparing level "world"
+[15:37:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:37:26] [Server thread/INFO]: Time elapsed: 218 ms
+[15:37:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:37:26] [Server thread/INFO]: Time elapsed: 87 ms
+[15:37:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:37:26] [Server thread/INFO]: Time elapsed: 72 ms
+[15:37:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[15:37:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[15:37:27] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:37:27] [Server thread/INFO]: [Images] Enabling Images v2.2.7
+[15:37:27] [Server thread/INFO]: Running delayed init tasks
+[15:37:27] [Server thread/INFO]: Done (2.920s)! For help, type "help"
+[15:37:27] [Server thread/INFO]: Timings Reset
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[15:37:28] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:37:29] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 1 images...
+[15:37:35] [User Authenticator #1/INFO]: UUID of player EdgyEmo02 is 254c0bcf-1127-350b-87d3-656ec764773b
+[15:37:35] [Server thread/INFO]: EdgyEmo02 joined the game
+[15:37:35] [Server thread/INFO]: EdgyEmo02[/127.0.0.1:51535] logged in with entity id 150 at ([world]1117.256807431534, 82.0, -1354.7809163343766)
+[15:37:37] [Server thread/INFO]: EdgyEmo02 lost connection: Disconnected
+[15:37:37] [Server thread/INFO]: EdgyEmo02 left the game
+[15:37:40] [Server thread/INFO]: Stopping the server
+[15:37:40] [Server thread/INFO]: Stopping server
+[15:37:40] [Server thread/INFO]: [Images] Disabling Images v2.2.7
+[15:37:40] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[15:37:40] [Server thread/INFO]: Saving players
+[15:37:40] [Server thread/INFO]: Saving worlds
+[15:37:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:37:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:37:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:37:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:37:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:37:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:37:43] [Server thread/INFO]: Flushing Chunk IO
+[15:37:43] [Server thread/INFO]: Closing Thread Pool
+[15:37:43] [Server thread/INFO]: Closing Server
