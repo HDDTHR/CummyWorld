@@ -1,154 +1,104 @@
-[16:44:55] [ServerMain/INFO]: Building unoptimized datafixer
-[16:44:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:44:56] [ServerMain/INFO]: Loaded 7 recipes
-[16:44:57] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[16:44:57] [Server thread/INFO]: Loading properties
-[16:44:57] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: eff22eb)
-[16:44:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:44:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:44:57] [Server thread/INFO]: Default game type: SURVIVAL
-[16:44:57] [Server thread/INFO]: Generating keypair
-[16:44:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:44:57] [Server thread/INFO]: Using default channel type
-[16:44:58] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[16:44:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:44:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[16:44:58] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[16:44:58] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[16:44:58] [Server thread/INFO]: [Images] Loading Images v2.2.7
-[16:44:58] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.3-b523
-[16:44:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:44:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[16:44:58] [Server thread/INFO]:         __    
-[16:44:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
-[16:44:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:44:58] [Server thread/INFO]: 
-[16:44:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:44:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:44:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:44:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:44:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 807ms)
-[16:44:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:44:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:44:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:44:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:44:59] [Server thread/INFO]: Preparing level "world"
-[16:44:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:45:00] [Server thread/INFO]: Time elapsed: 135 ms
-[16:45:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:45:00] [Server thread/INFO]: Time elapsed: 59 ms
-[16:45:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:45:00] [Server thread/INFO]: Time elapsed: 121 ms
-[16:45:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[16:45:00] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[16:45:00] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[16:45:00] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[16:45:00] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[16:45:00] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[16:45:00] [Server thread/INFO]: Preparing start region for dimension minecraft:test
-[16:45:00] [Server thread/INFO]: Time elapsed: 102 ms
-[16:45:00] [Server thread/INFO]: Preparing start region for dimension minecraft:testworld
-[16:45:00] [Server thread/INFO]: Time elapsed: 77 ms
-[16:45:00] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[16:45:01] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[16:45:01] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[16:45:01] [Server thread/INFO]: [Images] Enabling Images v2.2.7
-[16:45:01] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.3-b523
-[16:45:01] [Server thread/INFO]: [Multiverse-Inventories 4.2.3-b523] enabled.
-[16:45:01] [Server thread/INFO]: Running delayed init tasks
-[16:45:01] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[16:45:01] [Server thread/INFO]: Done (3.734s)! For help, type "help"
-[16:45:01] [Server thread/INFO]: Timings Reset
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[16:45:01] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[16:45:03] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 0 images...
-[16:46:03] [User Authenticator #1/INFO]: UUID of player GuitarRock3 is 737bdd23-1d92-3951-aedd-64a2d240043b
-[16:46:04] [Server thread/INFO]: GuitarRock3 joined the game
-[16:46:04] [Server thread/INFO]: GuitarRock3[/127.0.0.1:63429] logged in with entity id 567 at ([world]1040.7322765670683, 82.0, -1327.2664273134449)
-[19:19:51] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:entity.wither.death master @a ~ ~ ~ 1 2
-[19:19:51] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:entity.wither.death to GuitarRock3]
-[19:20:01] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master @a ~ ~ ~ 1 2
-[19:20:01] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:08] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master @a ~ ~ ~ 1 2
-[19:20:08] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:15] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master @a ~ ~ ~ 1 2
-[19:20:15] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:23] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:23] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:26] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:26] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:28] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:28] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:32] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:32] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:34] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:34] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:40] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:40] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:20:55] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:20:55] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:21:05] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:ambient.cave master GuitarRock3 ~ ~ ~ 1 2
-[19:21:05] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:21:18] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:record.13 master @a ~ ~ ~ 1 0.1
-[19:21:18] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:record.13 to GuitarRock3]
-[19:22:23] [Server thread/INFO]: GuitarRock3 issued server command: /playsound minecraft:record.13 master @a ~ ~ ~ 1 0.1
-[19:22:23] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:record.13 to GuitarRock3]
-[19:22:33] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave GuitarRock3 ~ ~ ~ 100 0.5
-[19:23:24] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:23:24] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:23:27] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:23:27] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:23:33] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 2
-[19:23:33] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:23:42] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 2
-[19:23:42] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:23:45] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:23:45] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:00] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:00] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:07] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:07] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:18] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:18] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:22] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:22] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:25] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:25] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:24:29] [Server thread/INFO]: GuitarRock3 issued server command: /playsound ambient.cave master GuitarRock3 ~ ~ ~ 100 1
-[19:24:29] [Server thread/INFO]: [GuitarRock3: Played sound minecraft:ambient.cave to GuitarRock3]
-[19:59:19] [Server thread/INFO]: GuitarRock3 lost connection: Disconnected
-[19:59:19] [Server thread/INFO]: GuitarRock3 left the game
-[19:59:28] [Server thread/INFO]: Stopping the server
-[19:59:28] [Server thread/INFO]: Stopping server
-[19:59:28] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.3-b523
-[19:59:28] [Server thread/INFO]: [Images] Disabling Images v2.2.7
-[19:59:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[19:59:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
-[19:59:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
-[19:59:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:59:28] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:59:29] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:59:29] [Server thread/INFO]: Saving players
-[19:59:29] [Server thread/INFO]: Saving worlds
-[19:59:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:59:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:59:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:59:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test]'/minecraft:test
-[19:59:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[testworld]'/minecraft:testworld
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (testworld): All chunks are saved
-[19:59:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:59:32] [Server thread/INFO]: Flushing Chunk IO
-[19:59:32] [Server thread/INFO]: Closing Thread Pool
-[19:59:32] [Server thread/INFO]: Closing Server
+[14:16:07] [ServerMain/INFO]: Building unoptimized datafixer
+[14:16:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:16:09] [ServerMain/INFO]: Loaded 7 recipes
+[14:16:10] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[14:16:10] [Server thread/INFO]: Loading properties
+[14:16:10] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: eff22eb)
+[14:16:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:16:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:16:10] [Server thread/INFO]: Default game type: SURVIVAL
+[14:16:10] [Server thread/INFO]: Generating keypair
+[14:16:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:16:10] [Server thread/INFO]: Using default channel type
+[14:16:10] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[14:16:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:16:11] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[14:16:11] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[14:16:11] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[14:16:11] [Server thread/INFO]: [Images] Loading Images v2.2.7
+[14:16:11] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.3-b523
+[14:16:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:16:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[14:16:11] [Server thread/INFO]:         __    
+[14:16:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[14:16:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:16:11] [Server thread/INFO]: 
+[14:16:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:16:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:16:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:16:11] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:16:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 741ms)
+[14:16:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:16:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:16:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:16:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:16:11] [Server thread/INFO]: Preparing level "world"
+[14:16:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:16:12] [Server thread/INFO]: Time elapsed: 118 ms
+[14:16:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:16:12] [Server thread/INFO]: Time elapsed: 47 ms
+[14:16:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:16:12] [Server thread/INFO]: Time elapsed: 45 ms
+[14:16:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[14:16:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[14:16:12] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:16:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[14:16:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:16:12] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:16:12] [Server thread/INFO]: Preparing start region for dimension minecraft:test
+[14:16:13] [Server thread/INFO]: Time elapsed: 105 ms
+[14:16:13] [Server thread/INFO]: Preparing start region for dimension minecraft:testworld
+[14:16:13] [Server thread/INFO]: Time elapsed: 312 ms
+[14:16:13] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[14:16:13] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[14:16:13] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:16:13] [Server thread/INFO]: [Images] Enabling Images v2.2.7
+[14:16:13] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.3-b523
+[14:16:13] [Server thread/INFO]: [Multiverse-Inventories 4.2.3-b523] enabled.
+[14:16:13] [Server thread/INFO]: Running delayed init tasks
+[14:16:13] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[14:16:13] [Server thread/INFO]: Done (3.502s)! For help, type "help"
+[14:16:13] [Server thread/INFO]: Timings Reset
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[14:16:14] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:16:15] [Craft Scheduler Thread - 3 - Images/INFO]: [Images] Loaded 0 images...
+[14:18:08] [User Authenticator #1/INFO]: UUID of player GuitarRock3 is 737bdd23-1d92-3951-aedd-64a2d240043b
+[14:18:08] [Server thread/INFO]: GuitarRock3 joined the game
+[14:18:08] [Server thread/INFO]: GuitarRock3[/127.0.0.1:65382] logged in with entity id 575 at ([world]1045.8040230825936, 82.0, -1328.4890909511628)
+[14:27:50] [Server thread/INFO]: GuitarRock3 has made the advancement [Isn't It Iron Pick]
+[15:10:02] [Server thread/INFO]: GuitarRock3 lost connection: Disconnected
+[15:10:02] [Server thread/INFO]: GuitarRock3 left the game
+[15:10:13] [Server thread/INFO]: Stopping the server
+[15:10:13] [Server thread/INFO]: Stopping server
+[15:10:13] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.3-b523
+[15:10:13] [Server thread/INFO]: [Images] Disabling Images v2.2.7
+[15:10:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[15:10:13] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[15:10:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[15:10:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:10:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:10:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:10:14] [Server thread/INFO]: Saving players
+[15:10:14] [Server thread/INFO]: Saving worlds
+[15:10:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:10:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:10:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:10:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test]'/minecraft:test
+[15:10:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[testworld]'/minecraft:testworld
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test): All chunks are saved
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (testworld): All chunks are saved
+[15:10:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:10:17] [Server thread/INFO]: Flushing Chunk IO
+[15:10:17] [Server thread/INFO]: Closing Thread Pool
+[15:10:17] [Server thread/INFO]: Closing Server
